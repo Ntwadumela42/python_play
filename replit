@@ -11,4 +11,24 @@
 # second = 'Bregman'
 # third = 'Altuve'
 
-sentence = 'The Empire did nothing wrong'
+#sentence = 'The Empire did nothing wrong'
+# sentence_two = 'Testing syntac\'s error'
+
+# print (sentence)
+# print (sentence_two)
+
+#Access portions inside strings
+#[] or ranges [0:2]  [3:]- takes the range all the way to the end
+# print (sentence[0:6])
+#
+#Python has an immutability property which makes it popular for machine learning.
+
+
+starter_sentence = 'The quick brown fox jumped'
+
+new_sentence = 'Thy' + starter_sentence[3:]
+
+print (new_sentence)
+
+
+
