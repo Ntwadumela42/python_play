@@ -1,0 +1,18 @@
+# processing coding inside a string using f{}
+#runs as Hi Ryan,
+#Thank you for purchasing Python elearning course
+#Regards,
+
+#Sales Team
+
+
+name = 'Ryan'
+product = 'Python elearning course'
+email_content = f"""
+Hi {name},
+Thank you for purchasing {product}
+Regards,
+
+Sales Team
+"""
+print(email_content)
