@@ -24,7 +24,7 @@
 #Python has an immutability property which makes it popular for machine learning.
 
 
-starter_sentence = 'The quick brown fox jumped'
+#starter_sentence = 'The quick brown fox jumped'
 
 new_sentence = 'Thy' + starter_sentence[3:]
 
