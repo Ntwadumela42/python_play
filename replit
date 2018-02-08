@@ -41,3 +41,13 @@ heading = "Python: An Introduction"
 # print(header)
 # print(subheader)
 
+api_data = '5'
+greeting = 'Hi'
+#is the sting alphanumeric?
+print('is it alphanumeric?')
+print(api_data.isalpha())
+print(greeting.isalpha())
+print('is it numeric?')
+#is the string numeric?
+print(api_data.isnumeric())
+print(greeting.isnumeric())
