@@ -5,7 +5,7 @@ t $$$$$$$$$$$$$$$
 o $$$$$$$$$$$
 
 """
-# list uses []  
+# list uses []  Mutable/changeable
 # dictionary uses {}   
 # tuples uses ()  *****Imutable****
 
