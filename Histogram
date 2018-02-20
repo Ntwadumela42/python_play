@@ -7,7 +7,7 @@ o $$$$$$$$$$$
 """
 # list uses []  
 # dictionary uses {}   
-# tuples uses ()
+# tuples uses ()  *****Imutable****
 
 
 sales = {
