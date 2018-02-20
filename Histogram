@@ -5,6 +5,10 @@ t $$$$$$$$$$$$$$$
 o $$$$$$$$$$$
 
 """
+# list uses []  
+# dictionary uses {}   
+# tuples uses ()
+
 
 sales = {
   'google' : 20,
