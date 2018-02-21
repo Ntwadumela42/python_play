@@ -21,6 +21,9 @@ tags_two = {
 # merged_tags = tags_one | tags_two
 
 # print(merged_tags)
+"""
+{'development', 'tutorials', 'python', 'ruby', 'coding'}
+"""
 
 
 # tags in tag one but not in tag tags_two
