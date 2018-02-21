@@ -32,6 +32,13 @@ print(exclusive_to_tag_one)
 """
 Result is
 {'python'}
+"""
 
 
+#tags found in both one and tags_two
+universal_tags = tags_two & tags_one
+
+print(universal_tags)
+"""
+{'coding', 'tutorials'}
 """
