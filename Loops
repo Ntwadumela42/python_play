@@ -12,3 +12,31 @@ players = {
 for position, player in players.items():
   print('Position', position)
   print('Player Name', player)
+  
+###  Loop over range
+  
+
+for num in range(1,10,2):          (beginning number, end number, step)
+   print(num)
+   
+   
+   ### Continue and break in loops
+   
+usernames = [
+  'jon',
+  'tyrion',
+  'theon',
+  'cersei',
+  'sansa',
+  ]
+  
+  
+  # Continue / Break
+  
+  
+for username in usernames:
+     if username == 'cersei':
+       print(f'Sorry, {username}, you are not allowed')
+       continue
+     else:
+       print(f'{username} is allowed')   
