@@ -38,6 +38,9 @@ for username in usernames:
      if username == 'cersei':
        print(f'Sorry, {username}, you are not allowed')
        continue
+       
+       
+       
      else:
        print(f'{username} is allowed')   
 
@@ -64,5 +67,26 @@ for username in usernames:
       return False
     else:
       print(f'No, {guess} is not the answer, please try again\n')
+      
+guessing_game()      
+
+##Added highs and lows to the guessing game
+
+def guessing_game():
+  while True:
+    print('What is your guess?')
+    guess = input()
+    
+    
+    if guess == '42':
+      print('You correctly guessed it!')
+      return False
+    else:
+      if guess > '42':
+        print(f'No, {guess} is too high, please try again\n')
+        
+      if guess < '42':
+        print(f'No, {guess} is too low, please try again\n')
+        
       
 guessing_game()      
