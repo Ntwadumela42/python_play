@@ -40,3 +40,12 @@ for username in usernames:
        continue
      else:
        print(f'{username} is allowed')   
+
+
+###Break
+
+for username in usernames:
+     if username == 'cersei':
+       print(f'{username} was found at index {usernames.index(username)}')
+       break
+     print(username)
