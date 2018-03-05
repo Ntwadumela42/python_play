@@ -45,3 +45,10 @@ def get_letter_grade(score):
     return "F"
 
 print(get_letter_grade(get_average(lloyd)))  #Watch the formatting. Didnt run correctly the first time because of an indent
+
+def get_class_average(class_list):#Took the return out of the loop which caused it to be innacurate
+  results = []
+  for student in class_list:
+    x = get_average(student)
+    results.append(x)
+  return average(results)
