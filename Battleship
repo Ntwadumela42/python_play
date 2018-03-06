@@ -11,3 +11,17 @@ def flatten(lists):
 print flatten(n)
 
 #[1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+"""Battleship"""
+
+##build a 5x5 board
+board = []
+for i in range(5):
+  board.append(['O'] * 5)
+  
+def print_board(board_in):
+  for row in board:
+    print(row)
+    
+print_board(board)
