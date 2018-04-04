@@ -18,3 +18,8 @@ Example Output
 
 def openOrSenior(data):
     return ["Senior" if age >= 55 and hand > 7 else "Open" for (age, hand) in data]
+
+
+#List comprehension arrays
+
+l3 = [x for x in l1 if x not in l2]
