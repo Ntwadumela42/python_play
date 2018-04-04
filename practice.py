@@ -17,4 +17,4 @@ Example Output
 
 
 def openOrSenior(data):
-    return ["Senior" if age >= 55 and hand >= 7 else "Open" for (age, hand) in data]
+    return ["Senior" if age >= 55 and hand > 7 else "Open" for (age, hand) in data]
