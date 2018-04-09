@@ -10,7 +10,7 @@ list_squared(1, 250) --> [[1, 1], [42, 2500], [246, 84100]]
 list_squared(42, 250) --> [[42, 2500], [246, 84100]]
 The form of the examples may change according to the language, see Example Tests: for more details."""
 
-#Here is my convoluted answer that works
+#Here is my convoluted answer that works; I think it works. It passes the codewars basic test but crashes their server on full testing.
 
 
 import math
