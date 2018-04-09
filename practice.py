@@ -31,3 +31,18 @@ import string     # Works better than .title, doesn't cap after apostrophes.
 
 def toJadenCase(NonJadenStrings):
     return string.capwords(NonJadenStrings)
+
+
+#Simple, given a string of words, return the length of the shortest word(s).
+#My solution:
+def find_short(s):
+    w = s.split(' ')
+    sortedwords = sorted(w, key=len)
+    selection = sortedwords[0]
+    return len(selection)
+
+
+#Best solution:
+
+def find_short(s):
+    return min(len(x) for x in s.split())
