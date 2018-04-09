@@ -23,3 +23,11 @@ def openOrSenior(data):
 #List comprehension arrays
 
 l3 = [x for x in l1 if x not in l2]
+
+"""Capitalize the first letter of each word"""
+
+
+import string     # Works better than .title, doesn't cap after apostrophes.
+
+def toJadenCase(NonJadenStrings):
+    return string.capwords(NonJadenStrings)
